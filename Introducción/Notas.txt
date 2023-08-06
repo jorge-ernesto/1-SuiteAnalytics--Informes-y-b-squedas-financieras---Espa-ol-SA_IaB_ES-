@@ -1,0 +1,77 @@
+---- Notas ----
+Para crear "Busquedas guardadas" usar: Informes -> Busquedas guardadas -> Todas las busquedas guardadas -> Nuevo
+
+---- Clase01 - Introduccion ----
+Vinculos de Informes: Hacer click en la opcion principal de "Informes" en la barra de navegación
+
+---- Clase02 - Utilizar informes estándar ----
+1. Informes -> Finanzas -> Detalles de transacción
+2. Informes -> Compras -> Compra por artículo
+3. Informes -> Ingresos -> Ingreso diferido por cliente (SE ENCUENTRA DISPONIBLE SOLAMENTE SI EL RECONOCIMIENTO DE INGRESOS SE ENCUENTRA HABILITADO)
+4. Informes -> Ventas -> Ventas por artículo
+	Los campos se agruparon como:
+	- "Tipo de artículo: Nombre del tipo" ---> Grupo.
+	- "Tipo de artículo: Nombre (agrupado)" ----> Grupo con columna previa. 
+	- Nota: El campo con la descripcion "(agrupado)" tiene metadatos que permiten la agrupación a detalle
+
+---- Clase03 - Personalizar informes estándar ----
+Herramienta: Generador de reportes
+SAF: SuiteAnalytics Financiero
+
+5. Informes -> Ventas -> Ventas por cliente
+	5.1. Informes -> Informes guardados -> JEL | SAF: Analisis de límite de crédito de cliente ----> Copia de Ventas por cliente
+			
+6. Informes -> Finanzas -> Detalles de transacción
+	6.1. Informes -> Informes guardados -> JEL | SAF: Depósito de cliente para c/por cobrar ----> Copia de Detalles de transacción
+
+7. Informes -> Finanzas -> Detalles de transacción
+	7.2. Informes -> Informes guardados -> JEL | SAF: Detalle de transaccion por tipo ----> Copia de Detalles de transacción
+		
+8. Informes -> Ingresos -> Ingreso diferido por Estado (SE ENCUENTRA DISPONIBLE SOLAMENTE SI EL RECONOCIMIENTO DE INGRESOS SE ENCUENTRA HABILITADO)
+
+9. Informes -> Inventario/Artículos -> Valuación de inventario
+	9.1. Informes -> Informes guardados -> JEL | SAF: Valuacion de inventario - consulta web ----> Copia de Valuación de inventario
+
+---- Clase04 - Descripción general de los estados financieros ----
+Herramienta: Generador de informes financieros
+
+10. Informes -> Finanzas -> Estado de ingresos y gastos
+	10.1. Informes -> Informes guardados -> JEL | SAF: Estado de ingresos y gastos ----> Copia de Estado de ingresos y gastos
+	
+---- Clase05 - Diseños de estados financieros ----
+Pendiente
+
+---- Clase06 - Informes de matriz ----
+Formato de informe:
+	- Resumen : Entidades y total
+	- Detalle : Entidades, detalle de transaccion, y total
+	- Matriz  : Similar a un informe de Resumen, con la diferencia que tiene columnas en la parte superior para dividir los datos
+
+12. Informes -> Compras -> Compra por artículo
+	12.1. Informes -> Informes guardados -> JEL | SAF: Compras con periodo contable ----> Copia de Compra por artículo)
+
+13. Informes -> Finanzas -> Estado de ingresos y gastos
+	13.1. Informes -> Informes guardados -> JEL | SAF: Informe periodo contable (Columna) ----> Copia de Esta de ingresos y gastos
+
+---- Clase07 - Creación de búsquedas guardadas ----
+LINEA PRINCIPAL - CUALQUIERA: Mostrara cabecera y detalle
+LINEA PRINCIPAL - SI: Mostrara cabecera
+LINEA PRINCIPAL - NO: Mostrara detalle
+
+14. Informes -> Busquedas guardadas -> JEL | SAF: Pendientes de ejecución de almacén ----> Tipo de Búsqueda: Transacción
+
+---- Clase08 - Agregar análisis en profundidad a las búsquedas ----
+15. Informes -> Busquedas guardadas -> JEL | SAF: FIN - Cuentas con expresiones ----> Tipo de Búsqueda: Cuenta
+
+16. Informes -> Busquedas guardadas -> JEL | SAF: Pendientes de ejecución de almacén (resumen) ----> Tipo de Búsqueda: cuenta
+
+17. Informes -> Busquedas guardadas -> JEL | SAF: Vencimientos y lista de casos de soporte ----> Tipo de Búsqueda: Caso
+
+18. Informes -> Busquedas guardadas -> JEL | SAF: Listas de precios de articulos de ventas con recargo ----> Tipo de Búsqueda: Artículo
+
+19. Informes -> Busquedas guardadas -> JEL | SAF: Demo SQL ----> Tipo de Búsqueda: Transacción
+
+---- Clase09 - Publicación de búsquedas guardadas ----
+PÚBLICO: Marque esta casilla para que esta búsqueda esté disponible para todos los usuarios que cuenten con permisos suficientes. Esta configuración permite que los usuarios realicen la búsqueda y vean los resultados de la búsqueda. No les permite editar la búsqueda.
+PERMITIR A LA AUDIENCIA EDITAR: Marque esta casilla si desea permitir que la audiencia edite la búsqueda, lo que significa que puede hacer cambios y volver a guardar la búsqueda con su mismo nombre. Si no marca esta casilla y la audiencia hace cambios, esta sólo podrá utilizar la opción Guardar como para guardar la búsqueda con un nombre diferente.
+ROLES: Para definir la audiencia de esta búsqueda según los roles asignados de los usuarios, seleccione uno o más roles, mantenga presionada la tecla CTRL para seleccionar más de uno.
